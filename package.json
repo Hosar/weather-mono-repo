@@ -1,0 +1,24 @@
+{
+  "name": "packages",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "yarn lerna run build",
+    "test": "yarn lerna run test",
+    "dev": "yarn lerna run dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "npmClient": "yarn",
+  "devDependencies": {
+    "lerna": "^5.1.4"
+  },
+  "private": "true",
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  }
+}
